@@ -1,7 +1,7 @@
 .card {
     background-color: var(--card-background);
     border-radius: var(--border-radius);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-lg) var(--spacing-md);
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -18,13 +18,14 @@
 }
 
 .header {
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .name {
     color: var(--text-title);
     font-size: var(--font-size-xl);
     margin-bottom: var(--spacing-xs);
+    font-weight: 500;
 
     &.highlighted {
         color: var(--page-background-color)
@@ -43,9 +44,8 @@
 
 .pricing {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     color: var(--text-title);
-    margin-bottom: var(--spacing-md);
 
     &.highlighted {
         color: var(--page-background-color)
@@ -53,26 +53,26 @@
 }
 
 .currency {
-    font-size: var(--font-size-3xl);
-    font-weight: bold;
+    font-size: var(--font-size-2xl);
+    font-weight: 500;
 }
 
 .price {
-    font-size: var(--font-size-3xl);
-    font-weight: bold;
-    margin: 0 var(--spacing-xs);
+    font-size: var(--font-size-2xl);
+    font-weight: 500;
 }
 
 .period {
     font-size: var(--font-size-sm);
     color: var(--text-description);
+    margin-left: .1em;
 
     &.highlighted {
         color: var(--page-background-color)
     }
 }
 
-.button {
-    margin-bottom: var(--spacing-lg);
-    width: 100%;
+.ctaButton {
+    margin-top: var(--spacing-xs);
+    margin-bottom: var(--spacing-md);
 }

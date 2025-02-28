@@ -1,5 +1,6 @@
 import type { ReactNode } from "react"
 import titleStyles from "./Title.module.scss"
+import { cn } from "../../lib"
 
 interface TitleProps {
     children: ReactNode
@@ -24,14 +25,7 @@ export const Title = ({
     subtitle,
     as: Component = "h1",
 }: TitleProps) => {
-    const titleClasses = `
-    ${titleStyles.title}
-    ${titleStyles[`align-${align}`]}
-    ${titleStyles[`size-${size}`]}
-    ${titleStyles[`weight-${weight}`]}
-    ${titleStyles[`color-${color}`]}
-    ${className}
-  `.trim()
+    const titleClasses = cn(titleStyles.title, titleStyles[`align-${align}`], titleStyles[`size-${size}`], titleStyles[`weight-${weight}`], titleStyles[`color-${color}`], className)
 
     if (!highlight) {
         return <Component className={titleClasses}>{children}</Component>
@@ -50,7 +44,7 @@ export const Title = ({
                     const isHighlighted = highlights.some((h) => part.toLowerCase() === h.toLowerCase())
 
                     return isHighlighted ? (
-                        <span key={index} className={titleStyles.highlight}>
+                        <span key={`${index}_${part}`} className={titleStyles.highlight}>
                             {part}
                         </span>
                     ) : (

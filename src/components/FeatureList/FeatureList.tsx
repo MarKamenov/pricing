@@ -10,7 +10,7 @@ export default function FeatureList({ features, isHighlighted }: any) {
                     <span className={cn(featureListStyles.icon, isHighlighted ? featureListStyles.highlighted : '')} aria-hidden="true">
                         {feature.included ? "✓" : "×"}
                     </span>
-                    <span className={cn(featureListStyles.featureName, isHighlighted ? featureListStyles.highlighted : '')}>{feature.name}</span>
+                    <p className={cn(featureListStyles.featureName, isHighlighted ? featureListStyles.highlighted : '')}>{feature.name}</p>
                 </li>
             ))}
         </ul>

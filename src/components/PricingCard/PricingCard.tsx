@@ -22,7 +22,7 @@ export const PricingCard = ({ plan }: PricinCardProps) => {
                 <span className={cn(pricingCardStyles.period, plan.isHighlighted ? pricingCardStyles.highlighted : '')}>/ Month</span>
             </div>
 
-            <Button ariaLabel={`Get started with the ${plan.name} plan`} onClick={() => { }} text="Get Started Now" variant={plan.isHighlighted ? "primary" : "secondary"} />
+            <Button className={pricingCardStyles.ctaButton} ariaLabel={`Get started with the ${plan.name} plan`} onClick={() => { }} text="Get Started Now" variant={plan.isHighlighted ? "primary" : "secondary"} />
 
             <FeatureList features={plan.features} isHighlighted={plan.isHighlighted} />
         </div>

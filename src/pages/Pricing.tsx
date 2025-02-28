@@ -5,7 +5,7 @@ import pricingStyles from './Pricing.module.scss';
 
 const PricingPage = ({ plans = pricing }) => {
     return (
-        <section id="home" aria-labelledby="pricing-heading" className={pricingStyles.pricingContainer}>
+        <section aria-labelledby="pricing-heading" className={pricingStyles.pricingContainer}>
             <Title highlight={["powerful creators"]} subtitle='Choose a plan that’s right for you' align="center" size="2xl" >
                 Powerful features for powerful creators
             </Title>
@@ -14,7 +14,6 @@ const PricingPage = ({ plans = pricing }) => {
                     <PricingCard key={plan.id} plan={plan} />
                 ))}
             </div>
-
         </section>
     );
 }

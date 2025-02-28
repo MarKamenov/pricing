@@ -7,7 +7,7 @@ import appStyles from './App.module.scss';
 
 export const App = () => {
   return (
-    <main>
+    <main className={appStyles.main}>
       <BrowserRouter>
         <AccessibleNavigation />
         <Suspense fallback={<Blocks

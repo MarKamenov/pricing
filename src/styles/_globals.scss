@@ -17,7 +17,7 @@
   --card-background: #ede9fe;
   --card-selected: #6d28d9;
   --card-shadow: #a78bfa;
-  --border-radius: 12px;
+  --border-radius: var(--spacing-sm);
   --feature-icon: #8b5cf6;
   --feature-icon-text-no: #ddd6fe;
   --feature-icon-no: #c4b5fd;
@@ -45,10 +45,9 @@
 }
 
 body {
+  height: 100vh;
+  overflow: hidden;
   font-family: 'Inter', sans-serif;
-  line-height: 1.5;
-  color: var(--text-color);
-  background-color: var(--background-color);
 
   &.dark {
     --page-title: #f8f8f8;
@@ -61,18 +60,8 @@ body {
   }
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-#home,
-#about,
-#skills,
-#projects,
-#contact {
-  flex: 1
+#root {
+  height: 100vh;
 }
 
 h1,
