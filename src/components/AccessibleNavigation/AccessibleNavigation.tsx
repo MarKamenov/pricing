@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useLocation } from "react-router"
 
-export const AccessibleNavigation: React.FC = () => {
+export const AccessibleNavigation = () => {
     // the message that will be announced
     const [message, setMessage] = useState('')
     // get location from router

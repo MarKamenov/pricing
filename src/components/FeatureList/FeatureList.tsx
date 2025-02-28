@@ -1,8 +1,12 @@
 import featureListStyles from "./FeatureList.module.scss"
 import { cn } from '../../lib'
+import { Feature } from '../../types'
+export interface FeatureListProps {
+    features: Feature[]
+    isHighlighted: boolean
+}
 
-
-export default function FeatureList({ features, isHighlighted }: any) {
+export const FeatureList = ({ features, isHighlighted }: FeatureListProps) => {
     return (
         <ul className={featureListStyles.featureList}>
             {features.map((feature: any) => (

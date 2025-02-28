@@ -1,5 +1,5 @@
 import { Button } from "../Button"
-import FeatureList from "../FeatureList/FeatureList"
+import { FeatureList } from "../FeatureList/FeatureList"
 import { cn } from '../../lib'
 import pricingCardStyles from "./pricingCard.module.scss"
 import { PricingPlan } from "../../types"
