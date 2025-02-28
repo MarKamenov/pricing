@@ -1,14 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 :root {
-  --page-title: #0056b3;
-  --primary-color: #0056b3;
-  --secondary-color: #6c757d;
-  --page-background-color: #fff;
-  --header-background-color: #fff;
-  --footer-background-color: #0056b3;
-  --text-color: #333;
-  --white: #fff;
+  --page-background-color: #f5f3ff;
+  --text-title: #2e1065;
+  --text-description: #334155;
+  --text-page-title-part: #7d39ed;
+  --text-page-subtitle: #475569;
+  --primary: #6a36e5;
+  --primary-light: #8a5cf5;
+  --primary-dark: #5026c8;
+  --accent: #f97316;
+  --hover: #ea580c;
+  --text-primary: #333;
+  --text-secondary: #666;
+  --background: #f8f7ff;
+  --card-background: #ede9fe;
+  --card-selected: #6d28d9;
+  --card-shadow: #a78bfa;
+  --border-radius: 12px;
+  --feature-icon: #8b5cf6;
+  --feature-icon-text-no: #ddd6fe;
+  --feature-icon-no: #c4b5fd;
+  --feature-icon-highlighted: #ede9fe;
+  // spacing
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  // font size
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
 }
 
 * {

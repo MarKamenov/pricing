@@ -1,0 +1,55 @@
+import { PricingPlan } from "../types/pricing";
+
+export const pricing: PricingPlan[] = [
+    {
+        id: "freebie",
+        name: "Freebie",
+        price: 0,
+        description: "Ideal for individuals who need quick access to basic features.",
+        isHighlighted: false,
+        features: [
+            { name: "20,000+ of PNG & SVG graphics", included: true },
+            { name: "Access to 100 million stock images", included: true },
+            { name: "Upload custom icons and fonts", included: false },
+            { name: "Unlimited Sharing", included: false },
+            { name: "Upload graphics & video in up to 4k", included: false },
+            { name: "Unlimited Projects", included: false },
+            { name: "Instant Access to our design system", included: false },
+            { name: "Create teams to collaborate on designs", included: false },
+        ],
+    },
+    {
+        id: "professional",
+        name: "Professional",
+        price: 25,
+        description: "Ideal for individuals who need advanced features and tools for client work.",
+        isHighlighted: true,
+        features: [
+            { name: "20,000+ of PNG & SVG graphics", included: true },
+            { name: "Access to 100 million stock images", included: true },
+            { name: "Upload custom icons and fonts", included: true },
+            { name: "Unlimited Sharing", included: true },
+            { name: "Upload graphics & video in up to 4k", included: true },
+            { name: "Unlimited Projects", included: true },
+            { name: "Instant Access to our design system", included: false },
+            { name: "Create teams to collaborate on designs", included: false },
+        ],
+    },
+    {
+        id: "enterprise",
+        name: "Enterprise",
+        price: 100,
+        description: "Ideal for businesses who need personalized services and security for large teams.",
+        isHighlighted: false,
+        features: [
+            { name: "20,000+ of PNG & SVG graphics", included: true },
+            { name: "Access to 100 million stock images", included: true },
+            { name: "Upload custom icons and fonts", included: true },
+            { name: "Unlimited Sharing", included: true },
+            { name: "Upload graphics & video in up to 4k", included: true },
+            { name: "Unlimited Projects", included: true },
+            { name: "Instant Access to our design system", included: true },
+            { name: "Create teams to collaborate on designs", included: true },
+        ],
+    },
+]

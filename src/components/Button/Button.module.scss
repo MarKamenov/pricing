@@ -27,20 +27,43 @@
 }
 
 .primary {
-    background-color: var(--secondary-color);
-    color: var(--color-white);
+    background-color: var(--accent);
+    color: var(--page-background-color);
 
-    &:hover:not(.disabled) {
-        background-color: #f97316;
+    &:hover:not(:disabled) {
+        background-color: var(--hover);
+    }
+
+    &:active:not(:disabled) {
+        background-color: var(--hover);
     }
 }
 
 .secondary {
-    background-color: var(--white);
-    color: var(--primary-color);
-    border: 1px solid var(--page-background-color);
+    background-color: transparent;
+    border: 1.5px solid var(--card-selected);
+    color: var(--card-selected);
 
-    &:hover:not(.disabled) {
-        background-color: var(--header-background-color);
+    &:hover:not(:disabled) {
+        background-color: var(--card-background);
     }
+
+    &:active:not(:disabled) {
+        background-color: var(--card-background);
+    }
+}
+
+.small {
+    font-size: var(--font-size-sm);
+    padding: 0.5rem 1rem;
+}
+
+.medium {
+    font-size: var(--font-size-md);
+    padding: 0.75rem 1.5rem;
+}
+
+.large {
+    font-size: var(--font-size-lg);
+    padding: 1rem 2rem;
 }

@@ -1,0 +1,95 @@
+.title {
+    margin: 0;
+    line-height: 1.2;
+}
+
+// Alignment variants
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+// Size variants
+.size-sm {
+    font-size: var(--font-size-sm);
+}
+
+.size-md {
+    font-size: var(--font-size-md);
+}
+
+.size-lg {
+    font-size: var(--font-size-lg);
+}
+
+.size-xl {
+    font-size: var(--font-size-xl);
+}
+
+.size-2xl {
+    font-size: var(--font-size-2xl);
+
+    @media (min-width: 768px) {
+        font-size: calc(var(--font-size-2xl) * 1.2);
+    }
+}
+
+.size-3xl {
+    font-size: var(--font-size-3xl);
+
+    @media (min-width: 768px) {
+        font-size: calc(var(--font-size-3xl) * 1.2);
+    }
+}
+
+// Weight variants
+.weight-normal {
+    font-weight: 400;
+}
+
+.weight-medium {
+    font-weight: 500;
+}
+
+.weight-semibold {
+    font-weight: 600;
+}
+
+.weight-bold {
+    font-weight: 700;
+}
+
+// Color variants
+.color-primary {
+    color: var(--text-page-title);
+}
+
+.color-secondary {
+    color: var(--text-secondary);
+}
+
+.color-accent {
+    color: var(--accent);
+}
+
+.color-default {
+    color: var(--text-primary);
+}
+
+// Highlight styles
+.highlight {
+    color: var(--text-page-title-part);
+    display: inline-block;
+}
+
+.subtitle {
+    text-align: center;
+    color: var(--text-page-subtitle)
+}
