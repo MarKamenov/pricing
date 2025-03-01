@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--spacing-xs) var(--spacing-sm) var(--spacing-xs);
+  background-color: var(--header-bck);
+
+  @media (min-width: 768px) {
+    padding-left: var(--spacing-xl);
+    padding-right: var(--spacing-xl);
+  }
+}

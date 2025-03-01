@@ -1,5 +1,5 @@
 .card {
-    background-color: var(--card-background);
+    background-color: var(--card-bck);
     border-radius: var(--border-radius);
     padding: var(--spacing-lg) var(--spacing-md);
     display: flex;
@@ -12,10 +12,11 @@
     }
 
     &.highlighted {
-        background-color: var(--card-selected);
-        box-shadow: 0 4px 44px var(--card-shadow);
+        background-color: var(--violet-700);
+        box-shadow: 0 4px 44px var(--card-shadow-highlighted-large-clr);
         padding-top: var(--spacing-xl);
         padding-bottom: var(--spacing-xl);
+        z-index: 1;
     }
 }
 
@@ -24,34 +25,33 @@
 }
 
 .name {
-    font-family: 'Satoshi-Bold';
-    color: var(--text-title);
+    color: var(--card-name-clr);
     font-size: var(--font-size-xl);
     margin-bottom: var(--spacing-xs);
     font-weight: 500;
 
     &.highlighted {
-        color: var(--page-background-color);
+        color: var(--card-name-highlighted-clr);
     }
 }
 
 .description {
     font-size: var(--font-size-sm);
-    color: var(--text-description);
+    color: var(--card-description-clr);
     line-height: var(--font-size-lg);
 
     &.highlighted {
-        color: var(--page-background-color)
+        color: var(--card-description-highlighted-clr)
     }
 }
 
 .pricing {
     display: flex;
     align-items: center;
-    color: var(--text-title);
+    color: var(--card-pricing-clr);
 
     &.highlighted {
-        color: var(--page-background-color)
+        color: var(--card-pricing-highlighted-clr);
     }
 }
 
@@ -67,11 +67,11 @@
 
 .period {
     font-size: var(--font-size-sm);
-    color: var(--text-description);
+    color: var(--card-period-clr);
     margin-left: .1em;
 
     &.highlighted {
-        color: var(--page-background-color)
+        color: var(--card-period-highlighted-clr)
     }
 }
 

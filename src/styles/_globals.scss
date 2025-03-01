@@ -1,25 +1,27 @@
 :root {
-  --page-background-color: #f5f3ff;
-  --text-title: #2e1065;
-  --text-description: #334155;
-  --text-page-title-part: #7d39ed;
-  --text-page-subtitle: #475569;
-  --primary: #6a36e5;
-  --primary-light: #8a5cf5;
-  --primary-dark: #5026c8;
-  --accent: #f97316;
-  --hover: #ea580c;
-  --text-primary: #333;
-  --text-secondary: #666;
-  --background: #f8f7ff;
-  --card-background: #ede9fe;
-  --card-selected: #6d28d9;
-  --card-shadow: #a78bfa;
+  // orange
+  --orange-500: #f97316;
+  --orange-600: #ea580c;
+  // violet
+  --violet-50: #f5f3ff;
+  --violet-950: #2e1065;
+  --violet-600: #7c3aed;
+  --violet-100: #ede9fe;
+  --violet-700: #6d28d9;
+  --violet-400: #a78bfa;
+  --violet-500: #8b5cf6;
+  --violet-200: #ddd6fe;
+  --violet-300: #c4b5fd;
+  // gray
+  --gray-600: #475569;
+  --gray-800: #1e293b;
+  --gray-100: #f1f5f9;
+  --gray-700: #334155;
+  --gray-400: #94a2b8;
+  --gray-500: #64738b;
+  --gray-950: #020617;
+  // border
   --border-radius: var(--spacing-sm);
-  --feature-icon: #8b5cf6;
-  --feature-icon-text-no: #ddd6fe;
-  --feature-icon-no: #c4b5fd;
-  --feature-icon-highlighted: #ede9fe;
   // spacing
   --spacing-xs: 0.5rem;
   --spacing-sm: 1rem;
@@ -34,6 +36,49 @@
   --font-size-xl: 1.5rem;
   --font-size-2xl: 2rem;
   --font-size-3xl: 2.5rem;
+  /*components */
+  // header
+  --header-bck: var(--violet-50);
+  // pricing
+  --pricing-container: var(--violet-50);
+  // feature list
+  --included-icon-bck: var(--violet-500);
+  --included-icon-clr: var(--violet-100);
+  --included-icon-highlighted-bck: var(--violet-100);
+  --included-icon-highlighted-clr: var(--violet-500);
+  --excluded-icon-bck: var(--violet-300);
+  --excluded-icon-clr: var(--violet-100);
+  --excluded-icon-highlighted-bck: var(--violet-200);
+  --excluded-icon-highlighted-clr: var(--violet-500);
+  --feature-name-clr: var(--violet-950);
+  --feature-name-highlighted-clr: var(--violet-50);
+  // pricing card
+  --card-bck: var(--violet-100);
+  --card-name-clr: var(--violet-950);
+  --card-name-highlighted-clr: var(--violet-50);
+  --card-description-clr: var(--gray-700);
+  --card-description-highlighted-clr: var(--violet-50);
+  --card-pricing-clr: var(--violet-950);
+  --card-pricing-highlighted-clr: var(--violet-50);
+  --card-period-clr: var(--gray-700);
+  --card-period-highlighted-clr: var(--violet-50);
+  --card-shadow-highlighted-large-clr: var(--violet-400);
+  // title
+  --title-color-primary: var(--violet-950);
+  --title-highlight-clr: var(--violet-600);
+  --title-subtitle-clr: var(--gray-600);
+  // button
+  --button-primary-bck: var(--orange-500);
+  --button-primary-hover-bck: var(--orange-600);
+  --button-primary-disabled-bck: var(--violet-300);
+  --button-primary-text-clr: var(--violet-50);
+  --button-shadow-clr: var(--violet-400);
+  //secondary
+  --button-secondary-bck: var(--violet-100);
+  --button-secondary-hover-bck: var(--violet-100);
+  --button-secondary-disabled-bck: var(--violet-400);
+  --button-secondary-text-clr: var(--violet-700);
+  --button-secondary-shadow-clr: var(--violet-400);
 }
 
 * {
@@ -48,24 +93,52 @@ body {
   font-family: 'Satoshi-Regular', sans-serif;
 
   &.dark {
-    --page-title: #f8f8f8;
-    --primary-color: #4dabf7;
-    --secondary-color: #adb5bd;
-    --page-background-color: #002147;
-    --text-color: #e0e0e0;
-    --header-background-color: #5e738e;
-    --footer-background-color: #09232e;
+    // header
+    --header-bck: var(--gray-800);
+    // pricing
+    --pricing-container: var(--gray-800);
+    // feature list
+    --included-icon-bck: var(--violet-300);
+    --included-icon-clr: var(--gray-700);
+    --included-icon-highlighted-bck: var(--violet-200);
+    --included-icon-highlighted-clr: var(--violet-700);
+    --excluded-icon-bck: var(--gray-500);
+    --excluded-icon-clr: var(--gray-700);
+    --excluded-icon-highlighted-bck: var(--violet-200);
+    --excluded-icon-highlighted-clr: var(--violet-700);
+    --feature-name-clr: var(--violet-50);
+    --feature-name-highlighted-clr: var(--gray-100);
+    // pricing card
+    --card-bck: var(--gray-700);
+    --card-name-clr: var(--violet-50);
+    --card-name-highlighted-clr: var(--gray-100);
+    --card-description-clr: var(--violet-100);
+    --card-description-highlighted-clr: var(--gray-100);
+    --card-pricing-clr: var(--violet-50);
+    --card-pricing-highlighted-clr: var(--gray-100);
+    --card-period-clr: var(--violet-100);
+    --card-period-highlighted-clr: var(--gray-100);
+    --card-shadow-highlighted-large-clr: var(--gray-950);
+    //title
+    --title-color-primary: var(--violet-50);
+    --title-highlight-clr: var(--violet-500);
+    --title-subtitle-clr: var(--gray-400);
+    // button
+    --button-primary-bck: var(--violet-50);
+    --button-primary-hover-bck: var(--violet-100);
+    --button-primary-disabled-bck: var(--violet-400);
+    --button-primary-text-clr: var(--violet-700);
+    --button-shadow-clr: var(--gray-950);
+    //secondary
+    --button-secondary-bck: var(--gray-600);
+    --button-secondary-hover-bck: var(--gray-700);
+    --button-secondary-disabled-bck: var(--gray-500);
+    --button-secondary-text-clr: var(--violet-300);
   }
 }
 
 #root {
   height: 100vh;
-}
-
-h1,
-h2,
-h3 {
-  margin-bottom: 1rem;
 }
 
 a {
@@ -84,11 +157,6 @@ a {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
-}
-
-:focus {
-  outline: 2px solid var(--primary-color);
-  outline-offset: 2px;
 }
 
 // used to detect if a user has enabled a setting on their device to minimize the amount of non-essential motion

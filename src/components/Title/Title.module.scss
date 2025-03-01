@@ -26,14 +26,14 @@
 
 .size-xl {
     font-size: var(--font-size-xl);
+
+    @media (min-width: 768px) {
+        font-size: calc(var(--font-size-xl) * 1.5);
+    }
 }
 
 .size-2xl {
     font-size: var(--font-size-2xl);
-
-    @media (min-width: 768px) {
-        font-size: calc(var(--font-size-2xl) * 1.2);
-    }
 }
 
 .size-3xl {
@@ -63,29 +63,23 @@
 
 // Color variants
 .color-primary {
-    color: var(--text-title);
-}
-
-.color-secondary {
-    color: var(--text-secondary);
+    font-family: 'Satoshi-Bold';
+    color: var(--title-color-primary);
 }
 
 .color-accent {
-    color: var(--accent);
-}
-
-.color-default {
-    color: var(--text-primary);
+    color: var(--orange-500);
 }
 
 // Highlight styles
 .highlight {
-    color: var(--text-page-title-part);
+    color: var(--title-highlight-clr);
+    font-family: 'Satoshi-Bold';
     display: inline-block;
 }
 
 .subtitle {
     text-align: center;
     margin-top: var(--spacing-xs);
-    color: var(--text-page-subtitle)
+    color: var(--title-subtitle-clr);
 }

@@ -6,11 +6,11 @@ import pricingStyles from './Pricing.module.scss';
 const PricingPage = ({ plans = pricing }) => {
     return (
         <section aria-labelledby="pricing-heading" className={pricingStyles.pricingContainer}>
-            <Title highlight={["powerful creators"]} subtitle='Choose a plan that’s right for you' align="center" size="2xl" >
+            <Title highlight={['powerful creators']} subtitle='Choose a plan that’s right for you' align="center" >
                 Powerful features for powerful creators
             </Title>
             <div className={pricingStyles.plansWrapper}>
-                {plans.map((plan) => (
+                {plans.map(plan => (
                     <PricingCard key={plan.id} plan={plan} />
                 ))}
             </div>

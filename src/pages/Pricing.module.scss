@@ -2,10 +2,15 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: var(--spacing-xl);
-    background-color: var(--page-background-color);
-    gap: var(--spacing-xl);
+    padding: var(--spacing-xs) var(--spacing-sm) var(--spacing-sm);
+    background-color: var(--pricing-container);
+    gap: var(--spacing-md);
     overflow-y: scroll;
+
+    @media (min-width: 768px) {
+        gap: var(--spacing-xl);
+        padding: var(--spacing-xs) var(--spacing-xl) var(--spacing-xl);
+    }
 }
 
 .plansWrapper {
@@ -13,4 +18,9 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     justify-content: center;
+    gap: var(--spacing-md);
+
+    @media (min-width: 768px) {
+        gap: 0;
+    }
 }

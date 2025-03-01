@@ -26,12 +26,12 @@
 
 .included {
     .icon {
-        background-color: var(--feature-icon);
-        color: var(--card-background);
+        background-color: var(--included-icon-bck);
+        color: var(--included-icon-clr);
 
         &.highlighted {
-            background-color: var(--feature-icon-highlighted);
-            color: var(--feature-icon);
+            background-color: var(--included-icon-highlighted-bck);
+            color: var(--included-icon-highlighted-clr);
         }
     }
 }
@@ -40,21 +40,21 @@
     opacity: 0.5;
 
     .icon {
-        background-color: var(--feature-icon-no);
-        color: var(--card-background);
+        background-color: var(--excluded-icon-bck);
+        color: var(--excluded-icon-clr);
 
         &.highlighted {
-            background-color: var(--feature-icon-text-no);
-            color: var(--feature-icon);
+            background-color: var(--excluded-icon-highlighted-bck);
+            color: var(--excluded-icon-highlighted-clr);
         }
     }
 }
 
 .featureName {
-    color: var(--text-title);
+    color: var(--feature-name-clr);
     line-height: 1.4;
 
     &.highlighted {
-        color: var(--page-background-color);
+        color: var(--feature-name-highlighted-clr);
     }
 }

@@ -1,8 +1,9 @@
+import { ReactNode } from 'react';
 import { cn } from '../../lib';
 import buttonStyles from './Button.module.scss';
 
 export interface ButtonProps {
-    text: string
+    children: ReactNode
     variant?: "primary" | "secondary"
     onClick: () => void;
     size?: "small" | "medium" | "large";
@@ -12,12 +13,12 @@ export interface ButtonProps {
     disabled?: boolean
 }
 
-export const Button = ({ ariaLabel, size = "small", text, className, variant = 'primary', onClick, fullWidth = false, disabled = false }: ButtonProps) => {
+export const Button = ({ ariaLabel, size = "small", children, className, variant = 'primary', onClick, fullWidth = false, disabled = false }: ButtonProps) => {
     const buttonClass = cn(buttonStyles.button, buttonStyles[variant], buttonStyles[size], fullWidth ? buttonStyles.fullWidth : "", disabled ? buttonStyles.disabled : "", className)
 
     return (
         <button aria-label={ariaLabel} className={buttonClass} onClick={onClick} disabled={disabled}>
-            {text}
+            {children}
         </button>
     )
 }
