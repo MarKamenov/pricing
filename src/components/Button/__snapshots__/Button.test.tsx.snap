@@ -1,10 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header component should match snapshot 1`] = `
+exports[`Button component should match snapshot 1`] = `
 <div>
   <button
     aria-label="label"
     class="button primary small"
+    type="button"
   >
     Button text
   </button>

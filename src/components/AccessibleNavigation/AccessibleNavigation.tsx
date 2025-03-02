@@ -19,7 +19,7 @@ export const AccessibleNavigation = () => {
     }, [location])
 
     return (
-        <span className="sr-only" role="status" aria-live="polite" aria-atomic="true">
+        <span data-testid="accessible-navigation" className="sr-only" role="status" aria-live="polite" aria-atomic="true">
             {message}
         </span>
     )

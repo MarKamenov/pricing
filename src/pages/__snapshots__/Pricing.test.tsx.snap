@@ -1,0 +1,560 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pricing component should match snapshot 1`] = `
+<div>
+  <section
+    aria-labelledby="pricing-heading"
+    class="pricingContainer"
+  >
+    <div>
+      <h1
+        class="title align-center size-xl weight-bold color-primary"
+      >
+        Powerful features for 
+        <span
+          class="highlight"
+        >
+          powerful creators
+        </span>
+      </h1>
+      <p
+        class="subtitle"
+      >
+        Choose a plan that’s right for you
+      </p>
+    </div>
+    <div
+      class="plansWrapper"
+    >
+      <div
+        class="card"
+      >
+        <div
+          class="header"
+        >
+          <h2
+            class="name"
+          >
+            Freebie
+          </h2>
+          <p
+            class="description"
+          >
+            Ideal for individuals who need quick access to basic features.
+          </p>
+        </div>
+        <div
+          class="pricing"
+        >
+          <span
+            class="currency"
+          >
+            $
+          </span>
+          <span
+            class="price"
+          >
+            0
+          </span>
+          <span
+            class="period"
+          >
+            / Month
+          </span>
+        </div>
+        <button
+          aria-label="Get started with the Freebie plan"
+          class="button secondary small ctaButton"
+          type="button"
+        >
+          Get Started Now
+        </button>
+        <ul
+          class="featureList"
+        >
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              20,000+ of PNG & SVG graphics
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Access to 100 million stock images
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName"
+            >
+              Upload custom icons and fonts
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName"
+            >
+              Unlimited Sharing
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName"
+            >
+              Upload graphics & video in up to 4k
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName"
+            >
+              Unlimited Projects
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName"
+            >
+              Instant Access to our design system
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName"
+            >
+              Create teams to collaborate on designs
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="card highlighted"
+      >
+        <div
+          class="header"
+        >
+          <h2
+            class="name highlighted"
+          >
+            Professional
+          </h2>
+          <p
+            class="description highlighted"
+          >
+            Ideal for individuals who need advanced features and tools for client work.
+          </p>
+        </div>
+        <div
+          class="pricing highlighted"
+        >
+          <span
+            class="currency"
+          >
+            $
+          </span>
+          <span
+            class="price"
+          >
+            25
+          </span>
+          <span
+            class="period highlighted"
+          >
+            / Month
+          </span>
+        </div>
+        <button
+          aria-label="Get started with the Professional plan"
+          class="button primary small ctaButton"
+          type="button"
+        >
+          Get Started Now
+        </button>
+        <ul
+          class="featureList"
+        >
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              20,000+ of PNG & SVG graphics
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Access to 100 million stock images
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Upload custom icons and fonts
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Unlimited Sharing
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Upload graphics & video in up to 4k
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Unlimited Projects
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Instant Access to our design system
+            </p>
+          </li>
+          <li
+            class="featureItem excluded"
+          >
+            <span
+              aria-hidden="true"
+              class="icon highlighted"
+              data-testid="feature-icon"
+            >
+              ×
+            </span>
+            <p
+              class="featureName highlighted"
+            >
+              Create teams to collaborate on designs
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="card"
+      >
+        <div
+          class="header"
+        >
+          <h2
+            class="name"
+          >
+            Enterprise
+          </h2>
+          <p
+            class="description"
+          >
+            Ideal for businesses who need personalized services and security for large teams.
+          </p>
+        </div>
+        <div
+          class="pricing"
+        >
+          <span
+            class="currency"
+          >
+            $
+          </span>
+          <span
+            class="price"
+          >
+            100
+          </span>
+          <span
+            class="period"
+          >
+            / Month
+          </span>
+        </div>
+        <button
+          aria-label="Get started with the Enterprise plan"
+          class="button secondary small ctaButton"
+          type="button"
+        >
+          Get Started Now
+        </button>
+        <ul
+          class="featureList"
+        >
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              20,000+ of PNG & SVG graphics
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Access to 100 million stock images
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Upload custom icons and fonts
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Unlimited Sharing
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Upload graphics & video in up to 4k
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Unlimited Projects
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Instant Access to our design system
+            </p>
+          </li>
+          <li
+            class="featureItem included"
+          >
+            <span
+              aria-hidden="true"
+              class="icon"
+              data-testid="feature-icon"
+            >
+              ✓
+            </span>
+            <p
+              class="featureName"
+            >
+              Create teams to collaborate on designs
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</div>
+`;

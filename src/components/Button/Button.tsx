@@ -16,8 +16,15 @@ export interface ButtonProps {
 export const Button = ({ ariaLabel, size = "small", children, className, variant = 'primary', onClick, fullWidth = false, disabled = false }: ButtonProps) => {
     const buttonClass = cn(buttonStyles.button, buttonStyles[variant], buttonStyles[size], fullWidth ? buttonStyles.fullWidth : "", disabled ? buttonStyles.disabled : "", className)
 
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
+        if ((event.key === "Enter" || event.key === " ") && !disabled) {
+            event.preventDefault();
+            onClick();
+        }
+    };
+
     return (
-        <button aria-label={ariaLabel} className={buttonClass} onClick={onClick} disabled={disabled}>
+        <button type='button' aria-label={ariaLabel} className={buttonClass} onClick={onClick} onKeyDown={handleKeyDown} disabled={disabled}>
             {children}
         </button>
     )

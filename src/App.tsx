@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { Blocks } from 'react-loader-spinner';
-import { BrowserRouter } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 import { MainRoutes } from './MainRoutes';
 import { AccessibleNavigation } from './components/AccessibleNavigation';
 import appStyles from './App.module.scss';

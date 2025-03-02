@@ -8,7 +8,7 @@ export const Header = () => {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <header className={styles.header}>
+    <header data-testid='header' className={styles.header}>
       <Button variant='secondary'
         onClick={toggleTheme}
         ariaLabel={`Switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
