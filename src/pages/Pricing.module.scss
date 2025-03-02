@@ -19,6 +19,7 @@
     align-items: center;
     justify-content: center;
     gap: var(--spacing-md);
+    padding-bottom: var(--spacing-xl);
 
     @media (min-width: 768px) {
         gap: 0;
