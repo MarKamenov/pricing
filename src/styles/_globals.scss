@@ -12,6 +12,7 @@
   --violet-500: #8b5cf6;
   --violet-200: #ddd6fe;
   --violet-300: #c4b5fd;
+  --violet-blur: #a68bfa;
   // gray
   --gray-600: #475569;
   --gray-800: #1e293b;
@@ -46,12 +47,14 @@
   --included-icon-clr: var(--violet-100);
   --included-icon-highlighted-bck: var(--violet-100);
   --included-icon-highlighted-clr: var(--violet-500);
+  --included-feature-name-clr: var(--violet-950);
+  --included-feature-name-highlighted-clr: var(--violet-50);
   --excluded-icon-bck: var(--violet-300);
   --excluded-icon-clr: var(--violet-100);
-  --excluded-icon-highlighted-bck: var(--violet-200);
-  --excluded-icon-highlighted-clr: var(--violet-500);
-  --feature-name-clr: var(--violet-950);
-  --feature-name-highlighted-clr: var(--violet-50);
+  --excluded-icon-highlighted-bck: var(--violet-500);
+  --excluded-icon-highlighted-clr: var(--violet-700);
+  --excluded-feature-name-clr: var(--violet-blur);
+  --excluded-feature-name-highlighted-clr: var(--violet-blur);
   // pricing card
   --card-bck: var(--violet-100);
   --card-name-clr: var(--violet-950);
@@ -102,12 +105,11 @@ body {
     --included-icon-clr: var(--gray-700);
     --included-icon-highlighted-bck: var(--violet-200);
     --included-icon-highlighted-clr: var(--violet-700);
+    --included-feature-name-clr: var(--violet-50);
+    --included-feature-name-highlighted-clr: var(--gray-100);
     --excluded-icon-bck: var(--gray-500);
     --excluded-icon-clr: var(--gray-700);
-    --excluded-icon-highlighted-bck: var(--violet-200);
-    --excluded-icon-highlighted-clr: var(--violet-700);
-    --feature-name-clr: var(--violet-50);
-    --feature-name-highlighted-clr: var(--gray-100);
+    --excluded-feature-name-clr: var(--gray-400);
     // pricing card
     --card-bck: var(--gray-700);
     --card-name-clr: var(--violet-50);
