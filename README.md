@@ -42,6 +42,12 @@ yarn dev
 yarn storybook
 ```
 
+## 🛠️ Running Tests
+
+```sh
+yarn test
+```
+
 ## 📦 Build for Production
 
 ```sh
@@ -107,5 +113,5 @@ export default tseslint.config({
 })
 ```
 
-## ß📜 License
+## 📜 License
 This project is licensed under the MIT License.
