@@ -1,4 +1,4 @@
-# React Vite Storybook Project
+# React Vite Storybook Pricing Project
 
 ![Vite](https://img.shields.io/badge/Vite-4.x-blueviolet?style=flat&logo=vite)
 ![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)
@@ -15,6 +15,7 @@ A React project bootstrapped with **Vite**, featuring **Storybook** for UI compo
 - 📖 **Storybook** for UI component development
 - 💅 **SCSS Modules /** support
 - 🃏 **Jest / React Testing Library** 
+- 🚀 **Deployed on Vercel**
 
 ---
 
@@ -45,6 +46,10 @@ yarn storybook
 ```sh
 yarn build
 ```
+
+## 🌍 Deployment
+
+This project is deployed on Vercel and can be accessed at: [https://pricing-p901seth0-markamenovs-projects.vercel.app/pricing](https://pricing-p901seth0-markamenovs-projects.vercel.app/pricing)
 
 ## Features in Detail
 
@@ -101,3 +106,5 @@ export default tseslint.config({
 })
 ```
 
+## ß📜 License
+This project is licensed under the MIT License.
