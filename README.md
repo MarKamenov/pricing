@@ -4,6 +4,7 @@
 ![React](https://img.shields.io/badge/React-18.x-blue?style=flat&logo=react)
 ![Storybook](https://img.shields.io/badge/Storybook-7.x-FF4785?style=flat&logo=storybook)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?style=flat&logo=typescript)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=flat&logo=vercel)
 
 A React project bootstrapped with **Vite**, featuring **Storybook** for UI component development.
 
