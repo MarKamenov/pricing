@@ -50,7 +50,7 @@ yarn build
 
 ## 🌍 Deployment
 
-This project is deployed on Vercel and can be accessed at: [https://pricing-p901seth0-markamenovs-projects.vercel.app/pricing](https://pricing-p901seth0-markamenovs-projects.vercel.app/pricing)
+This project is deployed on Vercel and can be accessed at: [https://pricing-chi.vercel.app/pricing](https://pricing-chi.vercel.app/pricing)
 
 ## Features in Detail
 
