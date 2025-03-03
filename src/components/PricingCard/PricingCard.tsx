@@ -1,7 +1,7 @@
 import { Button } from "../Button"
 import { FeatureList } from "../FeatureList/FeatureList"
 import { cn } from '../../lib'
-import pricingCardStyles from "./pricingCard.module.scss"
+import pricingCardStyles from "./PricingCard.module.scss"
 import { PricingPlan } from "../../types"
 
 export interface PricinCardProps {
